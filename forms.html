@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    
+    <h1>This is my form</h1>
+
+    <form>
+
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" placeholder="First Name" value="Rashi" size="20" maxlength="5">   <br><br>
+
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" required>  <br><br>
+
+        <input type="radio" name="gender" value="m">Male  <br>
+        <input type="radio" name="gender" value="f">Female <br>
+        <input type="radio" name="gender" value="o">Other  <br> <br>
+
+        <input type="checkbox" name="v1" value="B">I have a bike <br>
+        <input type="checkbox" name="v2" value="C">I have a car <br>
+        <input type="checkbox" name="v3" value="CY">I have a cycle <br> <br>
+
+        <input type="number" min="10" max="100" step="3" value="50">
+
+        <textarea name="message" cols="25" rows="5" placeholder="Type your message"></textarea>
+
+        <br><br>
+        <select name="Cars">
+            <option value="V">Volvo</option>
+            <option value="A">Audi</option>
+            <option value="M">Mercedes</option>
+            <option value="H">Hyundai</option>
+        </select>
+
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="Firefox"></option>
+            <option value="Chrome"></option>
+            <option value="Internet E"></option>
+            <option value="MIcrosoft edge"></option>
+        
+        </datalist>
+
+
+        <br><br>
+        <input type="password">
+
+        <input type="submit"> <input type="reset">
+        <!-- <button type="submit">Click to submit</button> -->
+
+
+
+    </form>
+
+
+</body>
+</html>
